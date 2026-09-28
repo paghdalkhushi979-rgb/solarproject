@@ -39,7 +39,7 @@ option = st.sidebar.radio("Select page",
         
 
 
-df = pd.read_csv(r"C:\Users\KHUSHI\OneDrive\Desktop\project\SolarData.csv")
+df = pd.read_csv("SolarData.csv")
 
 st.subheader("Missing Values Before Cleaning")
 
